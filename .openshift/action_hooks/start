@@ -6,4 +6,4 @@ set -x
 
 cd $OPENSHIFT_REPO_DIR/diy/servicemix
 
-bin/servicemix
+./bin/servicemix
