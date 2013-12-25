@@ -12,6 +12,8 @@ cd $OPENSHIFT_DATA_DIR
 cd $OPENSHIFT_REPO_DIR/diy/servicemix
 sed -ig 's/OPENSHIFT_DIY_IP/'$OPENSHIFT_DIY_IP'/g' etc/system.properties
 sed -ig 's/OPENSHIFT_DIY_IP/'$OPENSHIFT_DIY_IP'/g' etc/jetty.xml
+sed -ig 's/OPENSHIFT_DIY_IP/'$OPENSHIFT_DIY_IP'/g' etc/org.apache.karaf.management.cfg
+sed -ig 's/OPENSHIFT_DIY_IP/'$OPENSHIFT_DIY_IP'/g' etc/org.apache.karaf.shell.cfg
 sed -ig 's/OPENSHIFT_DIY_IP/'$OPENSHIFT_DIY_IP'/g' etc/activemq-broker.xml
 
 bin/servicemix
