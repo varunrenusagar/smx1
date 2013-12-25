@@ -4,5 +4,6 @@
 # $OPENSHIFT_INTERNAL_IP:8080
 set -x
 cd $OPENSHIFT_DATA_DIR
+cd $OPENSHIFT_REPO_DIR/servicemix
 
 bin/servicemix
