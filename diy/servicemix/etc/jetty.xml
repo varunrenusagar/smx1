@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <!--
 
@@ -42,7 +41,7 @@ DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
                     <Property name="OPENSHIFT_DIY_IP" />
                 </Set>
                 <Set name="port">
-                    <Property name="jetty.port" default="8080"/>
+                    <Property name="jetty.port" default="8181"/>
                 </Set>
                 <Set name="maxIdleTime">300000</Set>
                 <Set name="Acceptors">1</Set>
