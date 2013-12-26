@@ -1,3 +1,4 @@
+
 <?xml version="1.0"?>
 <!--
 
@@ -38,7 +39,7 @@ DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
         <Arg>
             <New class="org.eclipse.jetty.server.nio.BlockingChannelConnector">
                 <Set name="host">
-                    <Property name="OPENSHIFT_DIY_IP" />
+                    <Property name="jetty.host" />
                 </Set>
                 <Set name="port">
                     <Property name="jetty.port" default="8181"/>
